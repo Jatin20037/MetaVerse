@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+*{
+ 
+ /* background-image: linear-gradient(#bc8a93,#543443);*/
+ color:white;
+ font-family: 'Josefin Sans', sans-serif;
+}
+a{
+  color:white;
+}
+div{
+  color:white;
+}
+.carousel-indicators{
+  background:none
+}
+.backgrounddiv{
+  background-image:url("https://wallpaperaccess.com/full/6777555.jpg");
+ width:100%;
+ height: 100%;
+ background-size: 100% 100%;
+}
+.slideroverlay{
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  background: none;
+  background-image: -webkit-radial-gradient(rgba(0,0,0,0.3),#101010);
+}
+.heading{
+  margin:20px;
+  font-size:2rem;
+}
+.nextbtn{
+background:none;
+padding:20px;
+position:absolute;
+translate: translate(100%,0px);
+height:300px;
+width:55px;
+border:none;
+}
+.previousbtn{
+  background:none;
+  padding:20px;
+  position:absolute;
+  left:0%;
+  height:300px;
+  width:55px;
+  border:none;
+  }
+  .media{
+    transition:1s ease;
+    width:250px;
+    height:300px;
+    box-Shadow:0 0 10px 1px black;
+    border-Radius:5px;
+  }
+  .slidedesc{
+    position: absolute;
+    bottom: 15%;
+    left: 5%;
+  }
+ 
+  @media (1500px <=width <=4000px) {
+    .media{
+width:250px;
+height:300px;
+    }
+    .title{
+      font-size:4rem;
+    }
+    .slidedesc{
+      width:40%;
+    }
+    .slidedesc2{
+      width:40%;
+    }
+    .nextbtn{
+      background:none;
+      padding:20px;
+      position:absolute;
+      translate: translate(100%,0px);
+      height:300px;
+      width:55px;
+      border:none;
+      }
+      .previousbtn{
+        background:none;
+        padding:20px;
+        position:absolute;
+        left:0%;
+        height:300px;
+        width:55px;
+        border:none;
+        }
+}
+
+@media (1200px <=width <=1500px) {
+    .media{
+width:250px;
+height:300px;
+    }
+    .title{
+      font-size:4rem;
+    }
+    .slidedesc{
+      width:30%;
+    }
+    .slidedesc2{
+      width:30%;
+    }
+    .nextbtn{
+      background:none;
+      padding:20px;
+      position:absolute;
+      translate: translate(100%,0px);
+      height:300px;
+      width:55px;
+      border:none;
+      }
+      .previousbtn{
+        background:none;
+        padding:20px;
+        position:absolute;
+        left:0%;
+        height:300px;
+        width:55px;
+        border:none;
+        }
+}
+
+@media (1000px <=width <=1200px) {
+    .media{
+width:200px;
+height:250px;
+    }
+    .title{
+      font-size:3rem;
+    }
+    .slidedesc{
+      width:25%;
+    }
+    .slidedesc2{
+      width:25%;
+    }
+}
+
+@media (768px <=width <=1000px) {
+      .media{
+width:200px;
+height:250px;
+      } 
+      .title{
+        font-size:3rem;
+      } 
+      .slidedesc{
+        width:60%;
+      }
+      .slidedesc2{
+        width:60%;
+      }
+      .nextbtn{
+        background:none;
+        padding:20px;
+        position:absolute;
+        translate: translate(100%,0px);
+        height:250px;
+        width:55px;
+        border:none;
+        }
+        .previousbtn{
+          background:none;
+          padding:20px;
+          position:absolute;
+          left:0%;
+          height:250px;
+          width:55px;
+          border:none;
+          }
+}
+
+@media (480px <=width <=768px) {
+      .media{
+width:150px;
+height:200px;
+      }  
+      .title{
+        font-size:2.5rem;
+      }
+      .slidedesc{
+        width:80%;
+      }
+      .slidedesc2{
+        width:80%;
+      }
+      .nextbtn{
+        background:none;
+        padding:10px;
+        position:absolute;
+        translate: translate(100%,0px);
+        height:200px;
+        width:55px;
+        border:none;
+        }
+        .previousbtn{
+          background:none;
+          padding:10px;
+          position:absolute;
+          left:0%;
+          height:200px;
+          width:55px;
+          border:none;
+          }
+}
+
+@media (0px <=width <=480px) {
+      .media{
+width:100px;
+height:150px;
+      }  
+      .title{
+        font-size:2rem;
+      }
+      .slidedesc{
+        width:90%;
+      }
+      .slidedesc2{
+        width:90%;
+      }
+      .nextbtn{
+        background:none;
+        padding:10px;
+        position:absolute;
+        translate: translate(100%,0px);
+        height:150px;
+        width:55px;
+        border:none;
+        }
+        .previousbtn{
+          background:none;
+          padding:10px;
+          position:absolute;
+          left:0%;
+          height:150px;
+          width:55px;
+          border:none;
+          }
+}

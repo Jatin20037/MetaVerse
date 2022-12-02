@@ -1,0 +1,144 @@
+#navbarcontainer {
+    width: 100%;
+    background: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+   position: fixed;
+   top:0%;
+   z-index: 2;
+
+}
+
+.navcontents {
+    background: none;
+    position: absolute;
+top:40%;
+}
+
+
+span{
+    background:none;
+}
+input{
+    background: none;
+    color: white;
+    border:none;
+    /* border-Bottom: 1px solid silver; */
+    padding:10px;
+    width:0%;
+    margin-right: 10px;
+}
+#logo{
+    font-size:2rem;
+    margin:40px;
+}
+
+.dropdown{
+    width:100%;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: none;
+}
+.navcontents:hover .dropdown{
+    display:block;
+}
+@media (1500px <=width <=4000px) {
+    .navcontents {
+        font-size: 1.3rem;
+        padding-left: 30px;
+    }
+
+    .navcontents:nth-child(1)
+{
+    left:13%;
+}
+.navcontents:nth-child(2)
+{
+    left:20%;
+}
+.navcontents:nth-child(3)
+{
+    left:27%;
+}
+.navcontents:nth-child(4)
+{
+    left:34%;
+}
+}
+
+@media (1200px <=width <=1500px) {
+    .navcontents {
+        font-size: 1.3rem;
+        padding-left: 30px;
+    }
+
+    .navcontents:nth-child(1)
+{
+    left:17%;
+}
+.navcontents:nth-child(2)
+{
+    left:27%;
+}
+.navcontents:nth-child(3)
+{
+    left:37%;
+}
+.navcontents:nth-child(4)
+{
+    left:47%;
+}
+}
+
+@media (1000px <=width <=1200px) {
+    .navcontents {
+        font-size: 1.3rem;
+        padding-left: 30px;
+    }
+    .navcontents:nth-child(1)
+{
+    left:20%;
+}
+.navcontents:nth-child(2)
+{
+    left:32%;
+}
+.navcontents:nth-child(3)
+{
+    left:42%;
+}
+.navcontents:nth-child(4)
+{
+    left:52%;
+}
+}
+
+@media (768px <=width <=1000px) {
+    .navcontents {
+        font-size: 1.3rem;
+    }
+
+    #navbarcontainer {
+        display: none;
+    }
+}
+
+@media (480px <=width <=768px) {
+    .navcontents {
+        font-size: 1.3rem;
+    }
+
+    #navbarcontainer {
+        display: none;
+    }
+}
+
+@media (0px <=width <=480px) {
+    .navcontents {
+        font-size: 1.3rem;
+    }
+
+    #navbarcontainer {
+        display: none;
+    }
+}
